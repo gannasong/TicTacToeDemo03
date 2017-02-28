@@ -118,6 +118,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="reSetButton" destination="O63-HP-gqp" id="cLR-g5-Led"/>
                         <outlet property="stautsLabel" destination="Ylu-ga-K1s" id="g71-si-kNd"/>
                     </connections>
                 </viewController>

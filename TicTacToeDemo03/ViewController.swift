@@ -46,25 +46,30 @@ class ViewController: UIViewController {
                //stautsLabel.isHidden = false //䅰藏字
                 stautsLabel.text = "玩家Ｘ獲勝！！"
                 isOver = true
+                reSetButton.isHidden = false
             } else {
         for wincheck in 0..<win.count {
             if Set(win[wincheck]).isSubset(of:ooArray){
                 //stautsLabel.isHidden = false
                 stautsLabel.text = "玩家O獲勝！！"
                 isOver = true
+                reSetButton.isHidden = false
             }
                 }
             }
         }
         if Set(gameState).contains(0) != true { //contains是有沒有包含的意思,如果集合裡面沒有包含0不等於真
             stautsLabel.text = "平手再來一場！！"
+            //stautsLabel.isHidden = false
             isOver = true
+            reSetButton.isHidden = false
         }
     }
     
     
     
     //resetbutton
+    @IBOutlet weak var reSetButton: UIButton!
     @IBAction func reSetAction(_ sender: UIButton) {
         isOver = false
         xxArray = []
@@ -72,6 +77,7 @@ class ViewController: UIViewController {
         playerTurn = 1
         gameState = [0,0,0,0,0,0,0,0,0,]
         stautsLabel.text = ""
+        reSetButton.isHidden = true
         for i in 1...9 {
             let button = view.viewWithTag(i) as! UIButton//指定按鈕傳入
             button.setImage(nil, for: UIControlState())
@@ -98,7 +104,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
+        reSetButton.isHidden = true
+            }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
