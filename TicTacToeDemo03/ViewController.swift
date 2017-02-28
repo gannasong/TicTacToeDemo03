@@ -19,9 +19,13 @@ class ViewController: UIViewController {
             if playerTurn == 1 {
                 sender.setImage(UIImage(named:"xx.png"), for: UIControlState())
                 playerTurn = 2
+                xxArray.append(sender.tag)
+                checkvactor()
             } else {
                 sender.setImage(UIImage(named:"oo.png"), for: UIControlState())
                 playerTurn = 1
+                ooArray.append(sender.tag)
+                checkvactor()
             }
 
         }
@@ -29,6 +33,37 @@ class ViewController: UIViewController {
     
     
     
+    var win = [[1,2,3],[4,5,6],[7,8,9],[1,4,7],[2,5,8],[3,6,9],[1,5,9],[3,5,7]]
+    var xxArray:[Int] = []
+    var ooArray:[Int] = []
+    
+    func checkvactor() {
+        for wincheck in 0..<win.count {
+            if Set(win[wincheck]).isSubset(of: xxArray) {
+               //stautsLabel.isHidden = false //䅰藏字
+                stautsLabel.text = "玩家Ｘ獲勝！！"
+                
+            } else {
+        for wincheck in 0..<win.count {
+            if Set(win[wincheck]).isSubset(of:ooArray){
+                stautsLabel.isHidden = false
+                stautsLabel.text = "玩家O獲勝！！"
+                
+            }
+            
+                
+                }
+            }
+        }
+        if Set(gameState).contains(0) != true { //contains是有沒有包含的意思,如果集合裡面沒有包含0不等於真
+            stautsLabel.text = "平手再來一場！！"
+        }
+        
+        
+        
+        
+        
+    }
     
     
     
@@ -40,6 +75,9 @@ class ViewController: UIViewController {
     
     
     
+    
+    
+    @IBOutlet weak var stautsLabel: UILabel!
     
     
     
