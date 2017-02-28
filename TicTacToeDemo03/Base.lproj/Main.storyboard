@@ -114,17 +114,25 @@
                                     <action selector="reSetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ShM-KL-g4T"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time:5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEo-To-P0X">
+                                <rect key="frame" x="0.0" y="588" width="172" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="reSetButton" destination="O63-HP-gqp" id="cLR-g5-Led"/>
                         <outlet property="stautsLabel" destination="Ylu-ga-K1s" id="g71-si-kNd"/>
+                        <outlet property="timeLabel" destination="QEo-To-P0X" id="pva-N0-LRM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-188" y="-4.9475262368815596"/>
+            <point key="canvasLocation" x="-71.200000000000003" y="32.833583208395808"/>
         </scene>
     </scenes>
     <resources>
