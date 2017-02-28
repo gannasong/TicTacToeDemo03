@@ -12,10 +12,10 @@
 		4944EB1F1E65417600BB3BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4944EB1D1E65417600BB3BCE /* Main.storyboard */; };
 		4944EB211E65417600BB3BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4944EB201E65417600BB3BCE /* Assets.xcassets */; };
 		4944EB241E65417600BB3BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4944EB221E65417600BB3BCE /* LaunchScreen.storyboard */; };
-		4944EB2C1E65442300BB3BCE /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 4944EB2B1E65442300BB3BCE /* board.png */; };
-		4944EB2F1E65443000BB3BCE /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4944EB2D1E65443000BB3BCE /* x.png */; };
-		4944EB301E65443000BB3BCE /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = 4944EB2E1E65443000BB3BCE /* o.png */; };
 		4944EB321E65444100BB3BCE /* lunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 4944EB311E65444100BB3BCE /* lunch.png */; };
+		4944EB341E6548D500BB3BCE /* oo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4944EB331E6548D500BB3BCE /* oo.png */; };
+		4944EB361E6548DC00BB3BCE /* xx.png in Resources */ = {isa = PBXBuildFile; fileRef = 4944EB351E6548DC00BB3BCE /* xx.png */; };
+		4944EB381E654E1D00BB3BCE /* board 拷貝.png in Resources */ = {isa = PBXBuildFile; fileRef = 4944EB371E654E1D00BB3BCE /* board 拷貝.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		4944EB201E65417600BB3BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4944EB231E65417600BB3BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4944EB251E65417600BB3BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4944EB2B1E65442300BB3BCE /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
-		4944EB2D1E65443000BB3BCE /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
-		4944EB2E1E65443000BB3BCE /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
 		4944EB311E65444100BB3BCE /* lunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunch.png; sourceTree = "<group>"; };
+		4944EB331E6548D500BB3BCE /* oo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oo.png; sourceTree = "<group>"; };
+		4944EB351E6548DC00BB3BCE /* xx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xx.png; sourceTree = "<group>"; };
+		4944EB371E654E1D00BB3BCE /* board 拷貝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board 拷貝.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +69,9 @@
 				4944EB221E65417600BB3BCE /* LaunchScreen.storyboard */,
 				4944EB251E65417600BB3BCE /* Info.plist */,
 				4944EB311E65444100BB3BCE /* lunch.png */,
-				4944EB2B1E65442300BB3BCE /* board.png */,
-				4944EB2D1E65443000BB3BCE /* x.png */,
-				4944EB2E1E65443000BB3BCE /* o.png */,
+				4944EB331E6548D500BB3BCE /* oo.png */,
+				4944EB371E654E1D00BB3BCE /* board 拷貝.png */,
+				4944EB351E6548DC00BB3BCE /* xx.png */,
 			);
 			path = TicTacToeDemo03;
 			sourceTree = "<group>";
@@ -137,10 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4944EB321E65444100BB3BCE /* lunch.png in Resources */,
-				4944EB2C1E65442300BB3BCE /* board.png in Resources */,
+				4944EB361E6548DC00BB3BCE /* xx.png in Resources */,
+				4944EB341E6548D500BB3BCE /* oo.png in Resources */,
+				4944EB381E654E1D00BB3BCE /* board 拷貝.png in Resources */,
 				4944EB241E65417600BB3BCE /* LaunchScreen.storyboard in Resources */,
-				4944EB2F1E65443000BB3BCE /* x.png in Resources */,
-				4944EB301E65443000BB3BCE /* o.png in Resources */,
 				4944EB211E65417600BB3BCE /* Assets.xcassets in Resources */,
 				4944EB1F1E65417600BB3BCE /* Main.storyboard in Resources */,
 			);
